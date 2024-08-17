@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="stayel.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+  <h3 class="split-text " >
+    SPLI
+    <br>
+    TTER
+  </h3>
+  <div class="container">
+
+    <div class="leftSection">
+
+      <div class="labelinput">
+        <label class="Label" for="Billinput"> Bill</label>
+        <div class="Input">
+          <span class="currency-symbol">$</span>
+          <input type="text">
+        </div>
+      </div>
+
+        <div class="middel">
+          <div class="labelinput">
+          <label class="Label" for="Billinput"> select Tip %</label>
+          <div class="selectbtns">
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <button>custom</button>
+          </div>
+        </div></div>
+
+          <div class="labelinput">
+            <label class="Label" for="peopleNumber"> Number of Peole</label>
+            
+            <div class="Input">
+
+
+              <span  class="currency-symbol" >
+                <i class="fas fa-user"></i>
+              </span>
+              <input type="text">
+            </div>
+            
+          </div>
+
+       
+     </div>
+        
+
+     <div class="right">
+      <div class="tip-amount">
+        <div class="tipAmount">
+          <p>
+            Tip Amount <br />
+            <span>/ person</span>
+          </p>
+          <span id="tip-amount">$0.00</span>
+        </div>
+        <div class="total">
+          <p>
+            Total <br />
+            <span>/ person</span>
+          </p>
+          <span id="total">$0.00</span>
+        </div>
+      </div>
+      <button id="reset">RESET</button>
+
+   </div>     
+
+    <script src="main.js" ></script>
+</body>
+
+</html>
